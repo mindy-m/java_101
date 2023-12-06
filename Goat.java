@@ -42,6 +42,12 @@ public class Goat {
         result += this.powerLevel;
         result += ".  Are they grumpy?? ";
         result += this.isGrumpy;
+        result +=".\n";
+        result += this.name;
+        result += "'s favorite food is ";
+        result += this.favoriteFood;
+        result += "!";
+
         return result;
     }
 }

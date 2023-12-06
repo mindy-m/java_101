@@ -13,7 +13,7 @@ class Suffering {
         System.out.println(orlando);
 
         Goat lily = new Goat("Lily", 12, false);
-        System.out.println("\n\n...and here's some info about Lily!");
+        System.out.println("\n\n...and here's some info about Lily! (also a goat)");
         System.out.println(lily);
     }
 
