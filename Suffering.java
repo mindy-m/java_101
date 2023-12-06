@@ -7,6 +7,10 @@ class Suffering {
         double inchesOfPizzaArea = calcPizzaArea(12);
         System.out.println("How many inches of pizza will I have?");
         System.out.println(inchesOfPizzaArea);
+
+        Goat orlando = new Goat("Orlando", 99, true);
+        System.out.println("\nHere's some info about Orlando (who happens to be a goat): ");
+        System.out.println(orlando);
     }
 
     // Will return a double precision float (a number data type)

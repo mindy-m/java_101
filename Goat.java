@@ -13,4 +13,14 @@ public class Goat {
                 this.powerLevel = powerLevel;
                 this.isGrumpy = isGrumpy;
     }
+
+    public String toString() {
+        String result = "This is a goat named: ";
+        result += this.name;
+        result += "and their power level is ";
+        result += this.powerLevel;
+        result += ".  Are they grumpy?? ";
+        result += this.isGrumpy;
+        return result;
+    }
 }
