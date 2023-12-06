@@ -30,7 +30,7 @@ public class Goat {
         };
 
         Random randomFoodNumGenerator = new Random();
-        int favoriteFoodIndex = randomFoodNumGenerator.nextInt(5);
+        int favoriteFoodIndex = randomFoodNumGenerator.nextInt(6);
         this.favoriteFood = favoriteFoodOptions[favoriteFoodIndex];
 
     }
