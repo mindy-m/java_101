@@ -3,7 +3,9 @@ class Suffering {
     public static void main(String[] args) {
         System.out.println("AAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHHH!!!\nANYTHING BUT JAVA!!!");
         System.out.println("\nWell, except maybe Rust. ...\n");
+        
         double inchesOfPizzaArea = calcPizzaArea(12);
+        System.out.println("How many inches of pizza will I have?");
         System.out.println(inchesOfPizzaArea);
     }
 
