@@ -15,7 +15,7 @@ public class Goat {
     }
 
     public String toString() {
-        String result = "This is a goat named: ";
+        String result = "This is a goat named ";
         result += this.name;
         result += " and their power level is ";
         result += this.powerLevel;
